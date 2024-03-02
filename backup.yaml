@@ -1,0 +1,10 @@
+---
+- name: Backup current switch config (nxos)
+  hosts: all
+  gather_facts: no
+  connection: network_cli
+
+  tasks:
+    - name: Backup switch config
+      nxos_config:
+        backup: yes
