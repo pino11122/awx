@@ -1,4 +1,4 @@
 ---
 - name: Backup current switch config (nxos)
-  hosts: 10.0.0.202
+  hosts: cisco_nxos
   gather_facts: yes
