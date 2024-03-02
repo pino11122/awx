@@ -1,6 +1,6 @@
 ---
 - name: Backup current switch config (nxos)
-  hosts: all
+  hosts: 10.0.0.202
   gather_facts: no
   connection: network_cli
 
