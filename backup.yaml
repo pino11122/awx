@@ -1,4 +1,5 @@
 ---
 - name: Backup current switch config (nxos)
+  hosts: 'Cisco NXOS'
   gather_facts: yes
   connection: network_cli
