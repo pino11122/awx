@@ -6,5 +6,5 @@
 
   tasks:
     - name: Backup switch config
-      nxos_config:
+      cisco.nxos.nxos_config:
         backup: yes
